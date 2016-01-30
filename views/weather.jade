@@ -1,0 +1,37 @@
+extends layout
+
+block content
+  .container
+    h1#myLocation
+    .row
+      .form-group
+        label(for='usr') Location:
+        input#zip(type='number', placeholder='Zip Code', min='00000', max='99999', required='')
+        button#wButton.btn.btn-primary Search
+    .row
+      .col-sm-6.box
+        h4 Previous Zips (click to visit)
+        h5 Please be patient 
+        ul#toAppendTo
+      .2daysforcast.col-sm-6.box
+        div
+          h2 Todays weather
+        .icon
+        div
+          h4.weather
+    .row
+      .day1.col-sm-6.box
+        div
+          h2#day1
+        .icon
+        div
+          h4#weather1
+      .day2.col-sm-6.box
+        div
+          h2#day2
+        .icon
+        div
+          h4#weather2
+
+block scripts
+ script(src="/js/weather.js")

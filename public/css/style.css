@@ -1,0 +1,71 @@
+body{
+	background-color: black;	
+	color:  white;
+
+}
+
+input{
+	color: black;
+}
+
+label{
+	text-align: left;
+}
+
+body{
+	background-image: url("http://cache.desktopnexus.com/cropped-wallpapers/997/997302-1440x900-[DesktopNexus.com].jpg?st=wpwhR_G_8LcfvTezx6W2DQ&e=1454097771");
+    background-size: cover;
+	  background-position: top right;
+	  background-position-x: 100%;
+	  background-position-y: 0%;
+	  background-repeat: no-repeat;
+	  font-size: 20px;
+	  text-align: center;
+}
+form{
+	text-align: left;
+}
+.navbar{
+	background-color: black;
+	color: white;
+	font-size: 20px;
+}
+
+.btn{
+	border: 5px solid white; 
+	background-color: black;
+	color: #4dfcff;
+}
+
+.navbar-brand{
+	font-size: 40px;
+	color: gray;
+
+}
+
+
+#zip{
+	width: 500px;
+	margin-left: 10px;
+	margin-right: 10px;
+	color: black;
+}
+
+.box {
+	overflow: auto;
+	border: 5px solid white;
+	height: 200px;
+	width: 450px;
+	background-color: black;
+	border-radius: 10px;
+}
+
+li:hover {
+	background-color: white;
+	color: black;
+}
+
+.row{
+	display:flex;
+	justify-content:center;
+}

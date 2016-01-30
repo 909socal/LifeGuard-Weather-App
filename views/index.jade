@@ -1,0 +1,9 @@
+extends layout
+block content
+	div#backround
+		h1= title
+		p  Welcome to #{title}, enjoy the weather
+
+block scripts
+	script(src='/lib/firebase/firebase.js')
+	script(src="/js/index.js")
