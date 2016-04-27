@@ -1,11 +1,16 @@
 body{
 	background-color: black;	
-	color:  white;
+	color:  black;
 
 }
 
 input{
 	color: black;
+}
+
+.form-control{
+	width: 400px;
+
 }
 
 label{
